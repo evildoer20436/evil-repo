@@ -6,6 +6,11 @@
     background-color: #222831;
 }
 
+body {
+    overflow-x: hidden;
+     height: 200vh;
+}
+
 
 
 .navigation-bar {
@@ -44,14 +49,28 @@
     width: 400px;
 }
 
+.context-h1 {
+   font-size: 50px;
+}
+
+.span0 {
+    color:  #00ADB5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .Btn1 {
     padding: 5px 20px;
     margin: 15px;
     border-radius: 20px;
     border: none;
-    background-color: rgb(15, 214, 200);
+    background-color: #00ADB5;
     color: white;
     font-weight: bold;
+    transition: 300ms;
+}
+.Btn1:hover {
+    background-color: rgb(0, 162, 153);
+    cursor: pointer;
 }
 
 .Btn2 {
@@ -59,10 +78,53 @@
     margin: 15px;
     border-radius: 20px;
     border: none;
-    background-color: rgb(36, 36, 36);
+    background-color: #393E46;
     color: white;
     font-weight: bold;
     font-size: 12px;
+    transition: 300ms;
 }
+.Btn2:hover {
+    background-color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+img {
+   background-color: black;
+    position: absolute;
+    top: 200px;
+    width: 300px;
+   
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.span1 {
+    color:  #00ADB5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-paraghrap {
+    display: block;
+    align-items: center;
+    width: 400px;
+    padding: 10px 20px;
+    margin: 10px 50px;
+    color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
