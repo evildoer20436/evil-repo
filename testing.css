@@ -1,16 +1,16 @@
 * {
-    padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #222831;
 }
 
 body {
-    overflow-x: hidden;
-     height: 200vh;
+    height: 500vh;
+    
 }
-
+    
 
 
 .navigation-bar {
@@ -126,5 +126,107 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Second Context Section */
+.second-context {
+    margin: 100px 80px;
+    background-image: url("Projects Page.png");
+    height: 100vh;
+    width: 100%;
+    margin: 130px 0px;
+}
+
+.work-header {
+    position: absolute;
+    top: 63em;
+    left: 16px;
+    color: white;
+    margin: 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-heading {
+    font-size: 45px;
+}
+
+.span2 {
+    color:  #00ADB5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.btn3 {
+    padding: 5px 20px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00ADB5;
+    color: white;
+    font-weight: bold;
+    transition: 300ms;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn3:hover {
+    background-color: rgb(0, 162, 153);
+}
+
+.btn4 {
+    padding: 5px 20px;
+    margin: 5px 3px;
+    border-radius: 20px;
+    border: none;
+    background-color: #393E46;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn4:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.btn5 {
+    padding: 5px 20px;
+    margin: 5px 3px;
+    border-radius: 20px;
+    border: none;
+    background-color: #393E46;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn5:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.btn6 {
+    padding: 6px 18px;
+    margin: 5px 3px;
+    border-radius: 20px;
+    border: none;
+    background-color: #393E46;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.image-row {
+    display: flex;
+}
 
 
+
+.column {
+  float: left;
+  width:100.33%;
+  padding: 10px;
+  object-fit: cover;
+}
