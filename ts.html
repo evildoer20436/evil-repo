@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: blueviolet;
+            height: 300vh;
+        }
+
+        span {
+            display: flex;
+            margin: 20px 10px;
+            margin-right: 700px;
+            color: white;
+            font-size: 20px;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            padding: 10px 5px;
+            margin: 10px 5px;
+        }
+
+        nav ul li {
+           
+            
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            transition: 300ms;
+    
+           
+        }
+
+        nav a:hover {
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+        nav a:focus {
+           border: 2px solid blue
+        }
+        
+        img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            padding: 20px 10px;
+            margin: 15px 10px;
+
+        }
+        p {
+            color: brown;
+            font-size: 30px;
+            position: relative;
+            width: 200px;
+            padding: 20px;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+
+        .con {
+            background-color: orange;
+            width: 200px;
+            height: 65px;
+            border: 1px solid black;
+            overflow: scroll;
+            margin: 30px 20px;
+            padding: 10px 5px;
+        }
+
+        input {
+            border: none;
+            padding: 15px 10px;
+            margin: 10px 15px;
+            border-radius: 10px;
+          
+
+        }
+
+        input:focus {
+            border: none white;
+            background-color: red;
+            padding: 20px;
+             
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    
+    
+    <nav>
+      <span>mYPortfolio</span>
+       
+      <ul>
+       
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Product</a></li>
+            <li><a href="index.html">More</a></li>
+            <li><a href="index.html">Info</a></li>
+        </li>
+      </ul>
+    </nav>
+
+    <img src="Frame 11.png" alt="">
+    <p>Because the image has a z-index of
+         -1, it will be placed behind the text.</p>
+
+
+         
+         <div class="con">
+            <h1>Overflow Practise</h1>
+            You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens 
+            if content overflows an element's box.
+         </div>
+
+         <input type="text">
+         
+        
+         
+</body>
+</html>
